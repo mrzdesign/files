@@ -1,0 +1,74 @@
+/* ==========================================================================
+   General Styles
+   ========================================================================== */
+
+/* Color Palette */
+
+:root {
+  --color-primary: #0093ff;
+  --color-secondary: #0a0b11;
+  --color-complimentary: #0093ff;
+
+  --color-white: #fff;
+  --color-black: #0a0b11;
+
+  --color-messageError: #ff2840;
+  --color-messageSuccess: #009aff;
+  --color-fieldError: #ff2840;
+
+  --font-title: "obviously-variable", sans-serif;
+  --font-text: "Inter", sans-serif;
+  --font-weight: "ital" 0, "wdth" 200, "wght" 500;
+}
+
+/* Main */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--font-text);
+  background: var(--color-black);
+  color: var(--color-white);
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+.main {
+  background: #07080e;
+}
+
+/* Titles */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  font-variation-settings: var(--font-weight);
+  font-family: var(--font-title);
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 68px;
+  line-height: 86px;
+}
+
+/***********************
+        SECTION 1
+***********************/
+
+.demo {
+  /* position: fixed; */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
